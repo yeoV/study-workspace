@@ -2,7 +2,8 @@
 ## DevOps
 - 개발부터 운영까지의 프로세스 속도를 높이는 접근 방식
 - CALMS
-![[Pasted image 20221009161717.png]]
+<img width="731" alt="Pasted image 20221009161717" src="https://user-images.githubusercontent.com/59818703/194895430-4116dae0-31f8-4aca-af36-d8a3a0d87f76.png">
+
 출처:https://www.xalt.de/calms/
 ## CI / CD
 어플리케이션 개발 단계부터 배포까지 자동화를 통해서 효울적이고 빈번하게 진행
@@ -16,7 +17,7 @@
 2. 통합을 위한 단계 (Merge, Build, Test)의 자동화
 	- 개발 생산성 향상 (Merge 충돌 방지) -> **코드 퀄리티 향상**
 	- 버그 수정 용이 
-	- ![[Pasted image 20221009153926.png]]
+	- <img width="1134" alt="Pasted image 20221009153926" src="https://user-images.githubusercontent.com/59818703/194897229-6b3dff2f-d532-4380-93f1-2f68fb259177.png">
 		
 
 
@@ -24,11 +25,11 @@
 - Continuous Delivery : 지속적 제공
 	- CI -> Rrepare Release(Stage) -> Deploy Release
 	- 최종적으로 배포하기 전 확인 후 수동적 배포
-	- ![[Pasted image 20221009154406.png]]
+	- <img width="1171" alt="Pasted image 20221009154406" src="https://user-images.githubusercontent.com/59818703/194897258-f47f59c7-d255-448e-8711-fc71d13ebf90.png">
 
 - Continuous Deployment : 지속적 배포
 	- 배포까지의 과정이 자동화
-	- ![[Pasted image 20221009155621.png]]
+	- <img width="996" alt="Pasted image 20221009155621" src="https://user-images.githubusercontent.com/59818703/194897796-4c0d2588-bb3f-467a-8e33-3fa1deb8e472.png">
 
   사진 출처 : https://www.youtube.com/watch?v=0Emq5FypiMM
 
@@ -66,19 +67,21 @@ https://github.com/yeoV/fastapi-tutorial
 *"Nightly Build를 망가뜨리지 말라!"*
 
 ### Jenkins 구조
-![[Pasted image 20221010141212.png]]
+<img width="731" alt="Pasted image 20221010141212" src="https://user-images.githubusercontent.com/59818703/194897405-299bbe6a-3ef6-4651-a753-b06434b96a5a.png">
 - JNLP (Java Network Launch Protocol)
 	- The Java Network Launch Protocol (JNLP) enables an application to be launched on a client desktop by using resources that are hosted on a remote web server.
 
 **Jenkins Master (Server)**
 - Jenkins Pipeline 으로 정의된 모든 흐름을 담당하는 컨트롤 서버
-- ![[Pasted image 20221010141536.png]]
+- <img width="731" alt="Pasted image 20221010141536" src="https://user-images.githubusercontent.com/59818703/194897426-91989c70-8215-4af4-b329-6a8d222f7abe.png">
 - 형상관리에서 Hook을 통해 코드 변경사항 확인
 - Agent 에서 독자적인 테스트 환경을 만듬
 - Agent의 결과물을 Master가 받아 보고
 
 
 ### SonarQube
+- docker-compose file (for m1 mac)
+https://github.com/yeoV/study-workspace/blob/main/infra/sonarqube.yaml
 - 버그, 코드 스멜, 보안 취악점을 발견할 목적으로 **코드 정적 분석**
 - 중복 코딩, 코딩 표준, 유닛 테스트, 코드 커버리지, 코드 복잡도, 주석, 버그 등 보안 취약점 보고서 제공
 - SonarLint : IDE 에서 사용 가능한 feedback
@@ -119,5 +122,6 @@ $ ngrok http 8080
 ```
 
 ## 3. Jetbrain Space
-
+- docker-compose file (for m1 mac)
+https://github.com/yeoV/study-workspace/blob/main/infra/jetbrain-space.yml
 
