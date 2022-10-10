@@ -80,7 +80,7 @@ https://github.com/yeoV/fastapi-tutorial
 
 
 ### SonarQube
-- docker-compose file (for m1 mac)
+- docker-compose file (for m1 mac)  
 https://github.com/yeoV/study-workspace/blob/main/infra/sonarqube.yaml
 - 버그, 코드 스멜, 보안 취악점을 발견할 목적으로 **코드 정적 분석**
 - 중복 코딩, 코딩 표준, 유닛 테스트, 코드 커버리지, 코드 복잡도, 주석, 버그 등 보안 취약점 보고서 제공
@@ -123,5 +123,6 @@ $ ngrok http 8080
 
 ## 3. Jetbrain Space
 - docker-compose file (for m1 mac)
+
 https://github.com/yeoV/study-workspace/blob/main/infra/jetbrain-space.yml
 
