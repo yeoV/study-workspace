@@ -1,4 +1,5 @@
 
+# Docker 구조
 
 ## 초기 Docker Engine
 - Docker Daemon, LXC 로 구성
@@ -22,14 +23,13 @@
 - LXC는 리눅스 특화 / 의존성 문제
 - 해결을 위해 도커가 독자적으로 Libcontainer 툴 개발
 - 기본 실행 드라이버를 LXC에서 libcontainer로 대체
+***
 
-
-### Libcontainer
+## Libcontainer
 - Docker Engine 에서 사용하고 있는 주 컴포넌트
 - Go 언어로 만들어져 Container 생성 시 namespaces, cgroups, 등 제공
 - Docker에서 자체적으로 제작한 libcontainer의 CLI wrapper `runc` 사용
 <img width="350" src="./img/docker3.png">
-
 
 
 # Docker Engine
