@@ -35,7 +35,7 @@
 # Docker Engine
 - Client-Server 구조, **컨테이너를 구축하고 실행하는 기본 핵심 소프트웨어**
 - Docker Daemon, REST API, API를 통해 도커 데몬과 통신하는 CLI 모듈식으로 구성
-<img width="350" src="./img/docker4.png">
+<img width="500" src="./img/docker4.png">
 
 
 ## 수행 순서
