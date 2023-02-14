@@ -22,11 +22,11 @@
     Docker는 Client / Server 모델을 활용하기 때문에 Docker demon 및 하위 child 컨테이너들은 모두 같은 uid를 가진다. 따라서 audit을 활용한 보안 기능을 사용할 수 없다.
     
 
-<img width="500" src="./img/podman 0.png">
+<img width="800" src="./img/podman 0.png">
 
 ## Podman
 
-<img width="450" src="./img/podman 1.png">
+<img width="650" src="./img/podman 1.png">
 
 
 - docker cli와 비슷한 역할을 수행하는 tool
@@ -49,7 +49,7 @@
 
 ### 3가지 툴 정리
 
-<img width="500" src="./img/podman 2.png">
+<img width="800" src="./img/podman 2.png">
 
 ### 참조
 
